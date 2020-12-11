@@ -45,7 +45,7 @@ function App() {
         <input 
           type="text"
           className="search-bar"
-          placeholder="Search..."
+          placeholder="Search...your city"
           onChange={e => setQuery(e.target.value)}
           value={query}
           onKeyPress={search}
@@ -60,6 +60,8 @@ function App() {
           <div className="weather-box">
             <div className="temp"> {Math.round(weather.main.temp)}° c</div>
             <div className="weather"> {weather.weather[0].main}</div>
+      <div className="min"> Min : {Math.round(weather.main.temp_min)}° c</div>
+            <div className="max"> Max : {Math.round(weather.main.temp_max)}° c </div>
           </div>
         </div>
       ) : ('')}

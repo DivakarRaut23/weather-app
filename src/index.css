@@ -102,3 +102,15 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 
 }
+
+.weather-box .max {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.weather-box .min {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+}
