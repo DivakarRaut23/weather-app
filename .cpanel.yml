@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/lotus536/weather.twinscreation.com.au/public_html/weather-repo
+    - export DEPLOYPATH=/home/lotus536/public_html/weather-repo
     - /bin/cp * $DEPLOYPATH
   
